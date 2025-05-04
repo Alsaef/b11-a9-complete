@@ -27,12 +27,10 @@ You can access the live project here: [Job Box Live](https://b11-a9-complete.ver
 - **react-router-dom**: Used for routing within the React app. It helps navigate between pages and manage URL states.
 - **firebase**: Used for Firebase authentication (email/password login, Google authentication, etc.).
 - **react-toastify**: For displaying toast notifications to provide feedback to users.
-- **react-hook-form**: For handling forms, simplifying validation, and form submission.
 - **tailwindcss**: A utility-first CSS framework used for styling the app.
-- **@headlessui/react**: For accessible and unstyled UI components (such as dialogs and transitions) used in your app.
+- **daisyui**: daisyUI is the Tailwind CSS plugin.
 - **react-icons**: For displaying scalable vector icons in your app.
 - **react-dom**: A package for rendering the React app in the browser.
-- **react-scripts**: A package used for setting up the React development environment (e.g., webpack, Babel, etc.) for easier development.
 - **dotenv**: (If used for environment variables) For managing environment variables in your project.
 
 These are the main packages that you would have used based on the description provided. If there are others, feel free to add them to the list!
