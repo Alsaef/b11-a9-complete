@@ -1,12 +1,27 @@
-# React + Vite
+# Job Box - Job Search and Hiring Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Purpose
+Job Box is an intuitive platform designed to bridge the gap between job seekers and potential employers. It provides a seamless experience for users to register, log in, and browse job opportunities with easy authentication and a user-friendly interface.
 
-Currently, two official plugins are available:
+## Live URL
+You can access the live project here: [Job Box Live](https://b11-a9-complete.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
+- **User Authentication**: Secure registration and login system with email/password and social media (Google) integration.
+- **Profile Management**: Users can update their profile, including name and photo URL.
+- **Password Reset**: Forgot your password? You can reset it easily via email.
+- **404 Page**: A custom 404 page to handle unknown routes.
+- **Responsive Design**: Fully responsive interface using Tailwind CSS for mobile, tablet, and desktop devices.
+- **Job Search & Application**: Search, browse, and apply for available job opportunities.
+- **Live Navigation**: Simple navigation with protected routes for users' personal pages.
 
-## Expanding the ESLint configuration
+## Installation and Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+1. [Node.js](https://nodejs.org/) (v16 or above)
+2. [Firebase](https://firebase.google.com/) account to set up authentication and other services.
+
+### Step-by-Step Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Alsaef/b11-a9-complete.git
