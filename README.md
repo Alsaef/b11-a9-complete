@@ -29,6 +29,7 @@ You can access the live project here: [Job Box Live](https://b11-a9-complete.ver
 - **react-toastify**: For displaying toast notifications to provide feedback to users.
 - **tailwindcss**: A utility-first CSS framework used for styling the app.
 - **daisyui**: daisyUI is the Tailwind CSS plugin.
+- **framer-motion**: A popular animation library for React used to create smooth animations and transitions, making the UI feel more interactive and dynamic.
 - **react-icons**: For displaying scalable vector icons in your app.
 - **react-dom**: A package for rendering the React app in the browser.
 - **dotenv**: (If used for environment variables) For managing environment variables in your project.
