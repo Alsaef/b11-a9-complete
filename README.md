@@ -12,7 +12,7 @@ You can access the live project here: [Job Box Live](https://b11-a9-complete.ver
 - **Password Reset**: Forgot your password? You can reset it easily via email.
 - **404 Page**: A custom 404 page to handle unknown routes.
 - **Responsive Design**: Fully responsive interface using Tailwind CSS for mobile, tablet, and desktop devices.
-- **Job Search & Application**: Search, browse, and apply for available job opportunities.
+- **Job  & Application**:  browse, and apply for available job opportunities.
 - **Live Navigation**: Simple navigation with protected routes for users' personal pages.
 
 ## Installation and Setup
