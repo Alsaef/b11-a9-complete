@@ -3,10 +3,12 @@ import { Outlet } from 'react-router-dom';
 import NavBar from '../Components/NavBar';
 import Footrer from '../Components/Footrer';
 import DocumentTitle from '../Hook/DocumentTitle';
+import Scroll from '../Components/Scroll';
 
 const Root = () => {
     return (
         <div className='overscroll-x-none'>
+            <Scroll></Scroll>
              <DocumentTitle title='Job Box'></DocumentTitle>
             <NavBar></NavBar>
            <div className='min-h-screen'>
