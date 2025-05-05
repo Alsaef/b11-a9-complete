@@ -24,11 +24,11 @@ const AuthProvider = ({children}) => {
     const createAccount = (email, password, name, photoURL) => {
         setLoading(true)
         return createUserWithEmailAndPassword(auth, email, password).then((userCredential) => {
-          
           return updateProfile(userCredential.user, {
             displayName: name,
             photoURL: photoURL,
           });
+         
         });
       };
 

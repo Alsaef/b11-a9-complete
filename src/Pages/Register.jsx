@@ -17,6 +17,7 @@ const Register = () => {
             .then(result => {
                 toast.success(`${result.user.email} Login Successful`)
                 navigate(from, { replace: true });
+            
             })
             .catch(error => {
                 toast.error(error.message)
@@ -44,7 +45,7 @@ const Register = () => {
 
 
         createAccount(email, password, name, photo)
-        .then(() => {
+        .then((result) => {
           toast.success('Registration successful!');
           navigate(from, { replace: true });
         })
