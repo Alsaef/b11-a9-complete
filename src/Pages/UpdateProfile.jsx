@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 import DocumentTitle from '../Hook/DocumentTitle';
 
 const UpdateProfile = () => {
-  const { user } = useContext(AuthContext);
+  const { user,setUser } = useContext(AuthContext);
   const navigate = useNavigate();
 
   
@@ -21,11 +21,13 @@ const UpdateProfile = () => {
         displayName:name, photoURL:photoUrl
       }).then(result=>{
         toast.success('Your Profile is Update')
+        navigate('/my-profile');
+        setUser({ ...auth.currentUser });
       }).catch(error=>{
         console.log(error.message);
         toast.error(error.message)
       })
-    navigate('/my-profile');
+  
     
   };
 
