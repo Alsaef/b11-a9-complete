@@ -57,8 +57,8 @@ const Login = () => {
                             <label className="label">Password</label>
                             <div className='relative'>
                                 <label className="label">Password</label>
-                                <input type={showPassword === false ? "password" : "text"} name='password' className="input" placeholder="Password" required />
-                                <span onClick={() => setShowPassword(!showPassword)} className='absolute top-9 right-7 text-xl transform -translate-y-1/2 text-gray-600 cursor-pointer '>{showPassword == false ? <FaRegEyeSlash /> : <FaEye />}</span>
+                                <input type={showPassword === false ? "password" : "text"} name='password' className="input" placeholder="Password"  />
+                                <span onClick={() => setShowPassword(!showPassword)} className='absolute top-9 right-7 text-xl transform -translate-y-1/2 z-40 text-gray-600 cursor-pointer '>{showPassword == false ? <FaRegEyeSlash /> : <FaEye />}</span>
                             </div>
                             <div><Link to='/Forgot-password' className="link link-hover">Forgot password?</Link></div>
                             <button className="btn bg-blue-400 text-white mt-4">Login</button>

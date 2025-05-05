@@ -74,7 +74,7 @@ const Register = () => {
                           <div className='relative'>
                           <label className="label">Password</label>
                           <input required type={showPassword===false? "password" : "text"}name='password' className="input" placeholder="Password" />
-                          <span onClick={()=>setShowPassword(!showPassword)} className='absolute top-9 right-7 text-xl transform -translate-y-1/2 text-gray-600 cursor-pointer '>{showPassword==false?<FaRegEyeSlash />:<FaEye/>}</span>
+                          <span onClick={()=>setShowPassword(!showPassword)} className='absolute top-9 right-7 text-xl transform -translate-y-1/2 z-40 text-gray-600 cursor-pointer '>{showPassword==false?<FaRegEyeSlash />:<FaEye/>}</span>
                           </div>
 
 
