@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import DocumentTitle from '../Hook/DocumentTitle';
 import { AuthContext } from '../Provider/AuthProvider';
@@ -6,7 +6,7 @@ import { toast } from 'react-toastify';
 import { FaEye, FaRegEyeSlash } from 'react-icons/fa';
 
 const Login = () => {
-    const { googleLogin, LoginUser } = useContext(AuthContext)
+    const { googleLogin, LoginUser ,user} = useContext(AuthContext)
     const navigate = useNavigate()
     const location = useLocation();
     const from = location.state?.from?.pathname || "/";
@@ -43,6 +43,13 @@ const Login = () => {
             });
     }
 
+
+
+       useEffect(()=>{
+            if(user){
+                navigate(from, { replace: true }); 
+            }
+        },[navigate,user])
     return (
         <div>
             <DocumentTitle title='Login | Job Box'></DocumentTitle>
