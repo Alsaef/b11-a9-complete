@@ -38,6 +38,7 @@ const handelLogOut=()=>{
         toast.error(error.message)
     })
 }
+
     return (
         <div>
             <div className="navbar bg-base-100 lg:px-10 md:px-6 px-5">

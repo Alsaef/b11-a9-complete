@@ -12,7 +12,7 @@ import Profile from "../Pages/Profile";
 import UpdateProfile from "../Pages/UpdateProfile";
 import PrivateRoute from "../Private/PrivateRoute";
 import ForgatePassword from "../Pages/ForgatePassword";
-
+import Details from '../Pages/Detils';
   export const router = createBrowserRouter([
     {
       path: "/",

@@ -19,7 +19,7 @@ const UpdateProfile = () => {
     console.log(photoUrl,name);
     updateProfile(auth.currentUser, {
         displayName:name, photoURL:photoUrl
-      }).then(result=>{
+      }).then(()=>{
         toast.success('Your Profile is Update')
         navigate('/my-profile');
         setUser({ ...auth.currentUser });

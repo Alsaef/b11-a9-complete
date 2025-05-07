@@ -23,13 +23,12 @@ const AuthProvider = ({children}) => {
 
     const createAccount = (email, password, name, photoURL) => {
         setLoading(true)
-        return createUserWithEmailAndPassword(auth, email, password).then((userCredential) => {
-          return updateProfile(userCredential.user, {
-            displayName: name,
-            photoURL: photoURL,
-          });
-         
-        });
+        return  createUserWithEmailAndPassword(auth, email, password)
+        .then(({ user }) =>
+          updateProfile(user, { displayName: name, photoURL }).then(() => {
+            setUser({ ...user, displayName: name, photoURL });
+          })
+        );
       };
 
       const LoginUser=(email,password)=>{
