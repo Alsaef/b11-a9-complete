@@ -12,7 +12,7 @@ const Hero = () => {
             <div className="hero my-9 w-full  lg:px-10 md:px-6 px-5">
                 <div className="flex lg:flex-row-reverse md:flex-col flex-col items-center justify-around gap-10">
                     <img
-                        src='https://b11-a9-complete.vercel.app/assets/banner1-DkkHtpji.png'
+                        src='https://b11-a9.vercel.app/assets/banner1-DkkHtpji.png'
                         className="rounded-lg shadow-2xl"
                     />
                     <div>
