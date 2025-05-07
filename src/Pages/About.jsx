@@ -1,8 +1,10 @@
 import React from 'react';
+import DocumentTitle from '../Hook/DocumentTitle';
 
 const About = () => {
     return (
         <div className='lg:px-10 md:px-6 px-5 my-6'>
+            <DocumentTitle title='About | Job Box'></DocumentTitle>
             <div className="sm:flex items-center max-w-screen-xl">
     <div className="sm:w-1/2 p-10">
         <div className="image object-center text-center">
