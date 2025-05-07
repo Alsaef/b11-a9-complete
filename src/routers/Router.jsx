@@ -13,6 +13,7 @@ import UpdateProfile from "../Pages/UpdateProfile";
 import PrivateRoute from "../Private/PrivateRoute";
 import ForgatePassword from "../Pages/ForgatePassword";
 import Details from '../Pages/Detils';
+import About from "../Pages/About";
   export const router = createBrowserRouter([
     {
       path: "/",
@@ -21,6 +22,10 @@ import Details from '../Pages/Detils';
         {
             path:'/',
             element:<App></App>
+        },
+        {
+            path:'/about',
+            element:<About></About>
         },
         {
             path:'/my-profile',
