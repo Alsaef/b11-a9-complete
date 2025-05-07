@@ -61,7 +61,7 @@ const Login = () => {
                         <form onSubmit={handelLogin} className="fieldset">
                             <label className="label">Email</label>
                             <input type="email" name='email' className="input" placeholder="Email" required />
-                            <label className="label">Password</label>
+                    
                             <div className='relative'>
                                 <label className="label">Password</label>
                                 <input type={showPassword === false ? "password" : "text"} name='password' className="input" placeholder="Password"  />
