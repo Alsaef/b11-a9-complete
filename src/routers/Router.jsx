@@ -37,7 +37,7 @@ import About from "../Pages/About";
         },
         {
             path:'/company/:id',
-            element:<CompanyDetails></CompanyDetails>,
+            element:<PrivateRoute><CompanyDetails></CompanyDetails></PrivateRoute>,
             loader:()=>fetch('/jobdata.json')
         },
         {
